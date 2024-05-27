@@ -1,3 +1,5 @@
+console.log("Message formatting");
+
 function formatMessage(message, maxLength) {
   if (message.length <= maxLength) {
     return message;

@@ -1,3 +1,5 @@
+console.log("Spam check");
+
 function checkForSpam(message) {
   const messageToLower = message.toLowerCase();
   if (messageToLower.includes("spam") || messageToLower.includes("sale")) {
